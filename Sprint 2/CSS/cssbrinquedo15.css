@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+header{
+    margin-bottom: 5px;
+    border: red solid 1px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+main{
+    margin-bottom: 5px;
+    border: black solid 1px;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+footer{
+    margin-bottom: 5px;
+    border: red solid 1px;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.m_left{
+    border: #0037ff solid;
+    float: left;
+    width: 200px;
+    height: 100 px;
+}
+.m_left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.m_left ul a{
+    width: 200px;
+    height: 62.5px;
+    background-color:rgb(76, 169, 212);
+    text-decoration: none;
+    display: block;
+    color: white;
+    text-indent: 10px;
+    line-height: 40px;
+}
+.m_left ul a:hover{
+    background-color: rgb(red, green, rgb(76, 135, 230));
+}
+.m_left ul ul{
+    display: none;
+    margin-left: 160px;
+    position: absolute;
+}
+.m_left ul li:hover > ul{
+    display: block;
+}
+m.m_left ul ul a{
+    background-color: rgb(red, green, rgb(2, 2, 77));
+}
+.m_left ul ul a:hover{
+    background-color: rgb(red, green, rgb(78, 98, 229));
+}
+
+/*para funcionar o submenu */
+.m_meio{
+    float: left;
+    border: black solid 1px;
+    height: 500px;
+    width: 900px;
+}
+.m_dir{
+    float: left;
+    height: 500px;
+    width: 300px;
+}
