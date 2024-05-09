@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Paralax</title>
+</head>
+<style>
+    body, html{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+    
+    .img1, .img2, .img3, .img4{
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .img1{
+        background-image: url(Imagens/car_01.jpg);
+    }
+
+    .img2{
+        background-image: url(Imagens/car_02.jpg);
+    }
+
+    .img3{
+        background-image: url(Imagens/car_03.jpg);
+    }
+
+    .img4{
+        background-image: url(Imagens/porsche_panamera_turbo_s_e-hybrid_178.jpeg);
+    }
+
+    .conteudo{
+        background-color: gray;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 80px 40px 80px 40px;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .conteudo.contv{
+        background-color: purple;
+    }
+
+    .conteudo.contb{
+        background-color: blue;
+    }
+        
+</style>
+<body>
+    <div class="img1"></div>
+
+    <div class="conteudo"> 
+        <h2>Título 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dolor alias blanditiis, eveniet impedit perferendis quia, nostrum quam ratione nemo error doloremque. Obcaecati, officia accusamus. Ab debitis sint dolorem delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae voluptatum consectetur ducimus, amet soluta fuga ut eligendi, explicabo deleniti illo illum optio temporibus, expedita officia facere molestias doloribus similique.</p>
+    </div>
+
+    <div class="img2"></div>
+
+    <div class="conteudo contv">
+        <h2>Título 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum eum, ex quae aut similique temporibus deleniti recusandae, doloribus odio ratione neque quam itaque, ab excepturi illo saepe dolore a. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia ea non repellat tempore, perspiciatis aperiam atque cumque modi harum! Atque fugit quam velit voluptates non illo reprehenderit, voluptatibus totam dignissimos!</p>
+    </div>
+
+    <div class="img3"></div>
+
+    <div class="conteudo contb">
+        <h2>Título 3</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, recusandae corporis deserunt architecto sapiente ducimus ex, ea nisi corrupti accusantium voluptate. Eos dignissimos perspiciatis voluptatem deleniti inventore vero deserunt ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quibusdam perspiciatis, similique sed quis aliquam culpa dolores! Error placeat non magnam sapiente adipisci. Debitis, reprehenderit? Earum ratione nulla optio soluta.</p>
+    </div>
+    
+    <div class="img4"></div>
+</body>
+</html>
