@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colaboradores</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .titulo{
+            background-color: rgb(227, 86, 135);
+            text-transform: uppercase;
+            text-align: center;
+            padding: 30px;
+            color: white;
+        }
+
+        .conteudo{
+            background-image: linear-gradient(to bottom, rgb(227, 86, 135), rgb(224, 119, 54), rgb(217, 70, 70));
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .item{
+            width: 16%;
+            height: 200px;
+            margin: 10px;
+            background: white;
+            flex-grow: 0;
+            flex-shrink: 1;
+            border-radius: 10px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: white;
+        }
+
+        .item:hover{
+            width: 20%;
+            height: 300px;
+        }
+
+        .itemA{
+            background-image: url(imagens/carol.jpeg);
+        }
+
+        .itemB{
+            background-image: url(imagens/ana\ clara.jpg);
+        }
+
+        .itemC{
+            background-image: url(imagens/mari.jpeg);
+        }
+
+        .itemD{
+            background-image: url(imagens/ronaldo.jpg);
+        }
+
+        .itemE{
+            background-image: url(imagens/vic.jpeg);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+        <h1>Colaboradores - Le Croissant</h1>
+    </div>
+    <div class="conteudo">
+        <!--primeira linha-->
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemC"></div>
+        <div class="item itemD"></div>
+        <div class="item itemE"></div>
+
+         <!--segunda linha-->
+        <div class="item itemC"></div>
+        <div class="item itemE"></div>
+        <div class="item itemA"></div>
+        <div class="item itemB"></div>
+        <div class="item itemD"></div>
+
+         <!--terceira linha-->
+        <div class="item itemB"></div>
+        <div class="item itemD"></div>
+        <div class="item itemE"></div>
+        <div class="item itemC"></div>
+        <div class="item itemA"></div>
+    </div>
+
+
+</body>
+</html>
