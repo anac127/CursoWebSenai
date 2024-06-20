@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Extra</title>
+
+    <script>
+        var A = parseFloat(prompt('Insira o valor A:'));
+        var B = parseFloat(prompt('Insira o valor B:'));
+        var C = parseFloat(prompt('Insira o valor C:'));
+        var delta = ((B**2) - 4*A*C)
+        var R1 = null
+        var R2 = null
+
+        if(A == 0){
+            document.write('<h1>Impossível calcular.<h1>');
+
+        }else if(delta < 0){
+            document.write('<h1>Impossível calcular.<h1>');
+
+        }else{
+            var R1 = (-B + Math.sqrt(delta)) / 2*A;
+            var R2 = (-B - Math.sqrt(delta)) / 2*A;
+            document.write(' <h1> O valor da raiz 1 é de ' + R1 + ' e o valor da raiz 2 é de ' + R2 + '.<h1>')
+        }
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
