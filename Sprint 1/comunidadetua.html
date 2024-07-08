@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade de fãs - TUA</title>
+    <link rel="shortcut icon" href="imagens/favicontua.ico" type="image/x-icon">
+
+    <style>
+        body{
+            background-color: rgb(165, 165, 165);
+            font-family:Georgia, 'Times New Roman', Times, serif
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div align="center">
+            <img src="imagens/The_Umbrella_Academy_logo.svg" style="height: 150px;">
+        </div>
+    </header>
+        <hr>
+    <main>
+        <h2>Olá, brellie!! Venha fazer parte da nossa comunidade de fãs!</h2>
+        <p>Por aqui compartilhamos nossas opiniões, teorias e surtos sobe a série The Umbrella Academy. Mal podemos esperar pela quarta e última temporada! Estamos muuuito ansiosos!</p>
+        <p>Junte se a nós para desfrutar dessa série incrível e de conteúdos exclusivos sendo um brelly oficial através do formulário abaixo!</p>
+        <figure align="center">
+            <img src="imagens/umbrella-academy-season-4.webp" style="height: 250px;">
+        </figure>
+        <br>
+
+        <h3>Venha ser um brellie! Faça sua inscrição aqui:</h3>
+
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+                <label>Data de Nascimento:</label>
+                <input type="date" name="data_nasc" required>
+                <label>Telefone:</label>
+                <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                <label>CPF:</label>
+                <input type="number" name="cpf" placeholder="XXX.XXX.XXX-XX" required>
+                <label>E-mail:</label>
+                <input type="email" name="email" placeholder="seuemail@email.com" required>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <label>Endereço:</label>
+                <input type="text" name="endereço" placeholder="Digite seu endereço" required>
+                <label>Cidade:</label>
+                <input type="text" name="cidade" placeholder="Digite sua cidade" required>
+                <label>Estado:</label>
+                <select name="Estado">
+                    <optgroup label="Norte">
+                    <option value="ac">Acre</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="pa">Pará</option>
+                    <option value="rr">Roraima</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="to">Tocantins</option>
+                    </optgroup>
+
+                    <optgroup label="Nordeste">
+                    <option value="al">Alagoas</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="se">Sergipe</option>
+                    </optgroup>
+
+                    <optgroup label="Centro-Oeste">
+                    <option value="df">Distrito Federal</option>
+                    <option value="go">Goiás</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    </optgroup>
+
+                    <optgroup label="Sudeste">
+                    <option value="es">Espírito Santo</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="sp">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Sul">
+                    <option value="pa">Paraná</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Plano</legend>
+                <input type="radio" name="planos" id="plano-1" value="plano1" checked required>
+                <label>Plano Brellytastic</label>
+                <input type="radio" name="planos" id="plano-2" value="plano2" checked required>
+                <label>Plano Brellyant</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Fale sobre seu amor pela série:</legend>
+                <textarea name="amorpelaserie" style="resize: both;" required="yes" rows="5" cols="172"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Termos de contrato</legend>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum pariatur impedit consequuntur nostrum, atque doloremque modi qui voluptas autem esse. Voluptates eos corrupti odit necessitatibus aliquid dolore possimus soluta eveniet!</p>
+                <input type="checkbox" id="checkbox-termos" name="termos[]" value="contrato" checked required>
+                <label>Aceito os termos de contrato</label>
+                <input type="checkbox" id="checkbox-noticias" name="termos[]" value="noticias" required="no">
+                <label>Desejo receber notícias sobre a série</label>
+            </fieldset>
+            <br>
+            <button type="submit">Enviar dados</button>
+        </form>
+    </main>
+        <br><br>
+
+        <a href="desafiotua.html"><button>Voltar</button></a>
+        
+        <hr>
+    <footer>
+        <div align="center">
+            <p>Copyright &copy; 2024 - Téc. Multimídias</p>
+            <p>Santa Cruz do Rio Pardo</p>
+        </div>    
+    </footer>
+
+</body>
+</html>
