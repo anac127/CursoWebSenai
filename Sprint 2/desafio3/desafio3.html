@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Float e Clear</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 5px;
+        }
+
+        .cent{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+
+        .top{
+            height: 30px;
+            width: 100;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            padding-bottom: 10px;
+        }
+
+        span{
+            padding: 5px;
+        }
+
+        h3{
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 0.1em 0.1em 0.2em gray;
+            text-align: center;        
+        }
+
+        .figure{
+            float: left;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+        img{
+            width: 400px;
+        }
+
+        .leg{
+            text-align: center;
+            padding: 0;
+        }
+
+        .cent{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            align: center;
+            clear:left;
+            padding-left: 25px;
+        }
+
+        .p1{
+            padding: 10px;
+        }
+
+        .borda{
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(95, 95, 95);
+            padding: 10px;
+        }
+
+        .borda:hover{
+            border-style: solid;
+            border-width: 2px;
+            border-color: rgb(10,10,10);
+            background-color: rgb(226, 108, 11);
+            padding: 08px;
+        }
+            
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <div>
+            <figure class="cent">
+                <img src="Imagens/lorem desafio.jpg" style="width: 20%;">
+            </figure>
+        </div>
+
+        <div class="top">
+            <span class="borda">HOME</span>
+            <span class="borda">VOOS</span>
+            <span class="borda">PROMOÇÕES</span>
+            <span class="borda">PLANOS</span>
+        </div>
+    </header>
+
+    <main>
+        
+        <br>
+        <h3>Conheça a agência</h3>
+        <br>
+
+        <div>
+            <figure class="figure">
+                <img src="Imagens/viagem.jpg" style="width: 300px;">
+            </figure>
+
+            <p class="float">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum est sapiente laudantium laborum tenetur facilis corporis enim accusamus ea minima, dicta nisi amet quasi saepe numquam animi odio inventore porro! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae nemo velit soluta provident reprehenderit qui dicta nulla iusto fuga saepe, voluptate at a repudiandae debitis veniam non. Sunt, fugit voluptates?</p>
+            <br>
+            <p class="float">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non enim iure praesentium temporibus qui asperiores laboriosam nam minus quod. Minus rem voluptatibus architecto corrupti! Impedit deleniti totam in iusto quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat repellat, culpa saepe dolor quasi odio fugit dolorum nobis soluta ullam necessitatibus libero repellendus iusto ducimus magni commodi labore consequuntur tempore.</p>
+            <br>
+            <p class="float">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate totam temporibus repellendus, maiores placeat aliquid! Distinctio sed eius repellendus praesentium dolore eaque, sapiente, nihil consequuntur fugiat laudantium iure itaque vero?</p>
+            
+            <div class="clear"></div>
+        </div>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sapiente. Distinctio quasi asperiores illo animi voluptas temporibus? Expedita error perferendis distinctio, aspernatur maxime molestias, modi eveniet autem unde accusantium omnis?</p>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sapiente. Distinctio quasi asperiores illo animi voluptas temporibus? Expedita error perferendis distinctio, aspernatur maxime molestias, modi eveniet autem unde accusantium omnis?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, sapiente. Distinctio quasi asperiores illo animi voluptas temporibus? Expedita error perferendis distinctio, aspernatur maxime molestias, modi eveniet autem unde accusantium omnis?</p>
+
+        <hr color="orange">
+
+        <div>
+            <div class="cent">
+                <figure class="figure">
+                    <img src="Imagens/londresok.jpg">
+                    <figcaption class="leg">Londres</figcaption>
+                </figure>
+        
+                <figure class="figure">
+                    <img src="Imagens/cristo-redentor-rio-capa-05.jpg">
+                    <figcaption class="leg">Cristo Redentor</figcaption>
+                </figure>
+        
+                <figure class="figure">
+                    <img src="Imagens/estatua-da-liberdade-nova-york.jpg">
+                    <figcaption class="leg">Estátua da Liberdade</figcaption>
+                </figure>    
+                <div class="clear"></div>
+            </div>
+        </div>
+        
+        <hr color="orange">
+
+
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel minus iure voluptas, quasi odit beatae dolores. Perferendis eligendi libero, ipsam, quisquam nisi sapiente autem consequuntur enim incidunt corporis molestias eum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+
+        <hr color="orange">
+    </main>
+
+    <footer>
+
+        <div class="cent">
+            <p class="p1"> &copy Lorem Ipsum</p>
+            <p> SENAI-SP</p>
+        </div>
+
+    </footer>
+</body>
+</html>
