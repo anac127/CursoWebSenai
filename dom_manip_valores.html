@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando Input - JS</title>
+    <script>
+
+
+        /*function selecionarEntrada(){
+            var caracter = document.getElementById('entrada').value
+            document.getElementById('saida_n || 'saida_l').value = caracter
+        }
+
+        if(document.getElementById('entrada').value = '0'|| '1'||'2'|| '3'|| '4'|| '5'|| '6'|| '7'|| '8'|| '9'){
+            id = "saida_n"
+        }
+        else{
+            id= "saida_l"
+        }*/
+
+
+
+        function selecionarEntrada(){
+            var caracter = document.getElementById('entrada').value
+            document.getElementById('saida_n').value = caracter
+            document.getElementById('saida_l').value = caracter2
+        }
+
+        if(document.getElementById('entrada').value = '0'|| '1'||'2'|| '3'|| '4'|| '5'|| '6'|| '7'|| '8'|| '9'){
+            id = "saida_n"
+        }
+        else if(document.getElementById('entrada').value = 'a'|| 'b'||'c'){
+            id= "saida_l"
+        }
+
+    </script>
+</head>
+<body>
+    <label>Entrada:</label>
+    <input type="text" id="entrada" onkeyup="selecionarEntrada()" placeholder="Digite o Caracter">
+
+    <hr>
+
+    <label>Saída Letra:</label>
+    <input type="text" id="saida_l" disabled="disabled">
+    <br>
+    <label>Saída Número:</label>
+    <input type="text" id="saida_n" disabled="disabled">
+
+
+    
+    
+    
+    
+</body>
+</html>

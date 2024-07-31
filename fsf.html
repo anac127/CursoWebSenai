@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separar Texto e Números</title>
+</head>
+<body>
+    <form id="inputForm">
+        <label for="inputText">Digite texto e números:</label>
+        <input type="text" id="inputText" name="inputText" required>
+        <button type="button" onclick="separarTextoENumeros()">Separar</button>
+    </form>
+    
+    <br>
+    
+    <label for="outputText">Texto:</label>
+    <input type="text" id="outputText" disabled>
+    
+    <br>
+    
+    <label for="outputNumbers">Números:</label>
+    <input type="text" id="outputNumbers" disabled>
+    
+    <script>
+        function separarTextoENumeros() {
+            const input = document.getElementById('inputText').value;
+            const textOnly = input.replace(/[0-9]/g, ''); // Remove números
+            const numbersOnly = input.replace(/[^0-9]/g, ''); // Remove texto
+            
+            document.getElementById('outputText').value = textOnly;
+            document.getElementById('outputNumbers').value = numbersOnly;
+        }
+    </script>
+</body>
+</html>
